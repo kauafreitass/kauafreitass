@@ -41,8 +41,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width: 30%;
-    height: 80%;
+    width: 25%;
+    height: 75%;
     box-shadow: 0 0 80px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -65,14 +65,51 @@ body {
     text-decoration: none;
     color: white;
     width: 100%;
-    background: linear-gradient(319.6deg, rgb(243, 0, 79) 20.5%, rgb(255, 236, 68) 110.9%);
+    background: linear-gradient(300deg, rgb(243, 0, 79) 20.5%, rgb(255, 236, 68) 110.9%);
     padding: 12px;
     border-radius: 12px;
     text-align: center;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     border: none;
 }
 
 .links a:hover {
-    background: linear-gradient(319.6deg, rgb(204, 0, 68) 20.5%, rgb(234, 211, 0) 110.9%);
+    background: linear-gradient(300deg, rgb(204, 0, 68) 20.5%, rgb(234, 211, 0) 110.9%);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 80%;
+        height: 60%;
+    }
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+    .profile-pic img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 90%;
+        height: 70%;
+    }
+    .profile-pic {
+        width: 80px;
+        height: 80px;
+    }
+    .profile-pic img {
+        width: 80px;
+        height: 80px;
+    }
 }
