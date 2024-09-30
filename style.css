@@ -19,7 +19,7 @@ body {
     border-radius: 100%;
     border: 1px solid black;
     box-shadow: 0 0 80px 10px rgba(0, 0, 0, 0.5);
-    
+    text-align: center;
     transition: all 0.3s ease;
 }
 
@@ -31,6 +31,11 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.name {
+    position: relative;
+    bottom: 30px;
 }
 
 .card {
